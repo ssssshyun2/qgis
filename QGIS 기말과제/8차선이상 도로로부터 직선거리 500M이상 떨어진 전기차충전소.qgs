@@ -1,0 +1,2038 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.4.2-Madeira">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>28045</srsid>
+      <srid>5181</srid>
+      <authid>EPSG:5181</authid>
+      <description>Korea 2000 / Central Belt</description>
+      <projectionacronym>tmerc</projectionacronym>
+      <ellipsoidacronym>GRS80</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer id="서울형_지도태깅_전기차급속충전기_정보_d8e04adc_2624_45f3_a08e_7391ac5cc2d9" name="서울형 지도태깅 전기차급속충전기 정보" source="file:///C:/Users/yinls/Downloads/%EC%84%9C%EC%9A%B8%ED%98%95%20%EC%A7%80%EB%8F%84%ED%83%9C%EA%B9%85%20%EC%A0%84%EA%B8%B0%EC%B0%A8%EA%B8%89%EC%86%8D%EC%B6%A9%EC%A0%84%EA%B8%B0%20%EC%A0%95%EB%B3%B4.csv?encoding=System&amp;type=csv&amp;detectTypes=yes&amp;xField=%EC%A2%8C%ED%91%9C%EC%A0%95%EB%B3%B4&amp;yField=%EC%A2%8C%ED%91%9C%EC%A0%95%EB%B3%B4_1&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" checked="Qt::Checked" expanded="1" providerKey="delimitedtext">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="output_de563e65_c279_42f0_a6f8_e8ca90b431b0" name="버퍼를 적용한 산출물" source="Polygon?crs=EPSG:5181&amp;field=LINK_ID:string(13)&amp;field=UP_FROM_NO:string(13)&amp;field=UP_TO_NODE:string(13)&amp;field=DOWN_FROM_:string(13)&amp;field=DOWN_TO_NO:string(13)&amp;field=UP_LANES:integer(4)&amp;field=DOWN_LANES:integer(4)&amp;field=LANES:integer(4)&amp;field=REVERSIBLE:integer(4)&amp;field=UP_MAXSPEE:integer(4)&amp;field=DOWN_MAXSP:integer(4)&amp;field=ROAD_NAME:string(30)&amp;field=ROADNAME_A:string(30)&amp;field=ONEWAY:string(1)&amp;field=ROAD_NO:string(13)&amp;field=ROAD_RANK:string(3)&amp;field=ROAD_ADMIN:string(30)&amp;field=AUTOEXCLUS:string(1)&amp;field=UP_CLIMBIN:string(1)&amp;field=DOWN_CLIMB:string(1)&amp;field=UP_SHOULDE:string(1)&amp;field=DOWN_SHOUL:string(1)&amp;field=UP_BUSLANE:string(1)&amp;field=DOWN_BUSLA:string(1)&amp;field=PAVEMENT:string(1)&amp;field=SEPARATEDM:string(1)&amp;field=ROADFAC_TY:string(3)&amp;field=ROADFAC_NA:string(30)&amp;field=TOLL:string(1)&amp;field=OVERROAD_C:string(1)&amp;field=RESTRICT_V:string(3)&amp;field=RESTRICT_W:double(12,11)&amp;field=RESTRICT_H:double(12,11)&amp;field=NEWROAD:string(4)&amp;field=DISTRICT_I:string(13)&amp;field=NETWORK_LE:integer(4)&amp;field=LENGTH:double(12,11)&amp;field=RAMP:string(1)&amp;field=UPLINK_ID:string(13)&amp;field=MAPINDEX_I:string(8)&amp;field=REMARK:string(30)&amp;field=LINK_ID_OL:string(13)&amp;field=Shape_Leng:double(18,11)&amp;uid={9b8f2a82-4a7b-4de4-a299-4fe6ccc14aa7}" checked="Qt::Checked" expanded="1" providerKey="memory">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="road_link2_1dd3589a_640c_4936_baad_14bda8f707cc" name="road_link2" source="./새 폴더/QGIS_Step1/Day2_Data/Seoul/road_link2.shp" checked="Qt::Checked" expanded="1" providerKey="ogr">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>road_link2_1dd3589a_640c_4936_baad_14bda8f707cc</item>
+      <item>서울형_지도태깅_전기차급속충전기_정보_d8e04adc_2624_45f3_a08e_7391ac5cc2d9</item>
+      <item>output_de563e65_c279_42f0_a6f8_e8ca90b431b0</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings unit="2" type="1" enabled="0" mode="1" tolerance="0" intersection-snapping="0">
+    <individual-layer-settings>
+      <layer-setting id="road_link2_1dd3589a_640c_4936_baad_14bda8f707cc" type="1" enabled="0" units="1" tolerance="12"/>
+      <layer-setting id="output_de563e65_c279_42f0_a6f8_e8ca90b431b0" type="1" enabled="0" units="1" tolerance="12"/>
+      <layer-setting id="서울형_지도태깅_전기차급속충전기_정보_d8e04adc_2624_45f3_a08e_7391ac5cc2d9" type="1" enabled="0" units="1" tolerance="12"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>180162.55175643088296056</xmin>
+      <ymin>432747.65488197101512924</ymin>
+      <xmax>219073.82151273021008819</xmax>
+      <ymax>474683.67935608682455495</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>28045</srsid>
+        <srid>5181</srid>
+        <authid>EPSG:5181</authid>
+        <description>Korea 2000 / Central Belt</description>
+        <projectionacronym>tmerc</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" name="서울형 지도태깅 전기차급속충전기 정보" checked="Qt::Checked" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="서울형_지도태깅_전기차급속충전기_정보_d8e04adc_2624_45f3_a08e_7391ac5cc2d9" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="버퍼를 적용한 산출물" checked="Qt::Checked" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="output_de563e65_c279_42f0_a6f8_e8ca90b431b0" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="road_link2" checked="Qt::Checked" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="road_link2_1dd3589a_640c_4936_baad_14bda8f707cc" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer simplifyAlgorithm="0" labelsEnabled="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" type="vector" minScale="1e+08" simplifyMaxScale="1" autoRefreshTime="0" maxScale="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" geometry="Polygon" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>181413.35178291887859814</xmin>
+        <ymin>436019.5860606012865901</ymin>
+        <xmax>216501.46404701806022786</xmax>
+        <ymax>465726.88119681336684152</ymax>
+      </extent>
+      <id>output_de563e65_c279_42f0_a6f8_e8ca90b431b0</id>
+      <datasource>memory?geometry=Polygon&amp;crs=EPSG:5181&amp;field=LINK_ID:string(13,0)&amp;field=UP_FROM_NO:string(13,0)&amp;field=UP_TO_NODE:string(13,0)&amp;field=DOWN_FROM_:string(13,0)&amp;field=DOWN_TO_NO:string(13,0)&amp;field=UP_LANES:integer(4,0)&amp;field=DOWN_LANES:integer(4,0)&amp;field=LANES:integer(4,0)&amp;field=REVERSIBLE:integer(4,0)&amp;field=UP_MAXSPEE:integer(4,0)&amp;field=DOWN_MAXSP:integer(4,0)&amp;field=ROAD_NAME:string(30,0)&amp;field=ROADNAME_A:string(30,0)&amp;field=ONEWAY:string(1,0)&amp;field=ROAD_NO:string(13,0)&amp;field=ROAD_RANK:string(3,0)&amp;field=ROAD_ADMIN:string(30,0)&amp;field=AUTOEXCLUS:string(1,0)&amp;field=UP_CLIMBIN:string(1,0)&amp;field=DOWN_CLIMB:string(1,0)&amp;field=UP_SHOULDE:string(1,0)&amp;field=DOWN_SHOUL:string(1,0)&amp;field=UP_BUSLANE:string(1,0)&amp;field=DOWN_BUSLA:string(1,0)&amp;field=PAVEMENT:string(1,0)&amp;field=SEPARATEDM:string(1,0)&amp;field=ROADFAC_TY:string(3,0)&amp;field=ROADFAC_NA:string(30,0)&amp;field=TOLL:string(1,0)&amp;field=OVERROAD_C:string(1,0)&amp;field=RESTRICT_V:string(3,0)&amp;field=RESTRICT_W:double(12,11)&amp;field=RESTRICT_H:double(12,11)&amp;field=NEWROAD:string(4,0)&amp;field=DISTRICT_I:string(13,0)&amp;field=NETWORK_LE:integer(4,0)&amp;field=LENGTH:double(12,11)&amp;field=RAMP:string(1,0)&amp;field=UPLINK_ID:string(13,0)&amp;field=MAPINDEX_I:string(8,0)&amp;field=REMARK:string(30,0)&amp;field=LINK_ID_OL:string(13,0)&amp;field=Shape_Leng:double(18,11)</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>버퍼를 적용한 산출물</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28045</srsid>
+          <srid>5181</srid>
+          <authid>EPSG:5181</authid>
+          <description>Korea 2000 / Central Belt</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial miny="0" crs="" minz="0" minx="0" maxz="0" maxx="0" dimensions="2" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="System">memory</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="기본값">
+        <map-layer-style name="기본값"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol name="0" type="fill" alpha="1" clip_to_extent="1">
+            <layer class="SimpleFill" enabled="1" pass="0" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="253,5,109,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory lineSizeType="MM" width="15" sizeType="MM" diagramOrientation="Up" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" penWidth="0" penColor="#000000" opacity="1" enabled="0" minimumSize="0" penAlpha="255" sizeScale="3x:0,0,0,0,0,0" barWidth="5" minScaleDenominator="0" rotationOffset="270" labelPlacementMethod="XHeight" backgroundColor="#ffffff" backgroundAlpha="255" height="15" maxScaleDenominator="1e+08" scaleDependency="Area">
+          <fontProperties description="Gulim,9,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" priority="0" placement="1" zIndex="0" obstacle="0" showAll="1" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="LINK_ID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP_FROM_NO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP_TO_NODE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DOWN_FROM_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DOWN_TO_NO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP_LANES">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DOWN_LANES">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LANES">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="REVERSIBLE">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP_MAXSPEE">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DOWN_MAXSP">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROAD_NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROADNAME_A">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ONEWAY">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROAD_NO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROAD_RANK">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROAD_ADMIN">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AUTOEXCLUS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP_CLIMBIN">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DOWN_CLIMB">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP_SHOULDE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DOWN_SHOUL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP_BUSLANE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DOWN_BUSLA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PAVEMENT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SEPARATEDM">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROADFAC_TY">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROADFAC_NA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TOLL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OVERROAD_C">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RESTRICT_V">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RESTRICT_W">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RESTRICT_H">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NEWROAD">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DISTRICT_I">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NETWORK_LE">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LENGTH">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RAMP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UPLINK_ID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MAPINDEX_I">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="REMARK">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LINK_ID_OL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Leng">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="LINK_ID" index="0"/>
+        <alias name="" field="UP_FROM_NO" index="1"/>
+        <alias name="" field="UP_TO_NODE" index="2"/>
+        <alias name="" field="DOWN_FROM_" index="3"/>
+        <alias name="" field="DOWN_TO_NO" index="4"/>
+        <alias name="" field="UP_LANES" index="5"/>
+        <alias name="" field="DOWN_LANES" index="6"/>
+        <alias name="" field="LANES" index="7"/>
+        <alias name="" field="REVERSIBLE" index="8"/>
+        <alias name="" field="UP_MAXSPEE" index="9"/>
+        <alias name="" field="DOWN_MAXSP" index="10"/>
+        <alias name="" field="ROAD_NAME" index="11"/>
+        <alias name="" field="ROADNAME_A" index="12"/>
+        <alias name="" field="ONEWAY" index="13"/>
+        <alias name="" field="ROAD_NO" index="14"/>
+        <alias name="" field="ROAD_RANK" index="15"/>
+        <alias name="" field="ROAD_ADMIN" index="16"/>
+        <alias name="" field="AUTOEXCLUS" index="17"/>
+        <alias name="" field="UP_CLIMBIN" index="18"/>
+        <alias name="" field="DOWN_CLIMB" index="19"/>
+        <alias name="" field="UP_SHOULDE" index="20"/>
+        <alias name="" field="DOWN_SHOUL" index="21"/>
+        <alias name="" field="UP_BUSLANE" index="22"/>
+        <alias name="" field="DOWN_BUSLA" index="23"/>
+        <alias name="" field="PAVEMENT" index="24"/>
+        <alias name="" field="SEPARATEDM" index="25"/>
+        <alias name="" field="ROADFAC_TY" index="26"/>
+        <alias name="" field="ROADFAC_NA" index="27"/>
+        <alias name="" field="TOLL" index="28"/>
+        <alias name="" field="OVERROAD_C" index="29"/>
+        <alias name="" field="RESTRICT_V" index="30"/>
+        <alias name="" field="RESTRICT_W" index="31"/>
+        <alias name="" field="RESTRICT_H" index="32"/>
+        <alias name="" field="NEWROAD" index="33"/>
+        <alias name="" field="DISTRICT_I" index="34"/>
+        <alias name="" field="NETWORK_LE" index="35"/>
+        <alias name="" field="LENGTH" index="36"/>
+        <alias name="" field="RAMP" index="37"/>
+        <alias name="" field="UPLINK_ID" index="38"/>
+        <alias name="" field="MAPINDEX_I" index="39"/>
+        <alias name="" field="REMARK" index="40"/>
+        <alias name="" field="LINK_ID_OL" index="41"/>
+        <alias name="" field="Shape_Leng" index="42"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="LINK_ID" applyOnUpdate="0" expression=""/>
+        <default field="UP_FROM_NO" applyOnUpdate="0" expression=""/>
+        <default field="UP_TO_NODE" applyOnUpdate="0" expression=""/>
+        <default field="DOWN_FROM_" applyOnUpdate="0" expression=""/>
+        <default field="DOWN_TO_NO" applyOnUpdate="0" expression=""/>
+        <default field="UP_LANES" applyOnUpdate="0" expression=""/>
+        <default field="DOWN_LANES" applyOnUpdate="0" expression=""/>
+        <default field="LANES" applyOnUpdate="0" expression=""/>
+        <default field="REVERSIBLE" applyOnUpdate="0" expression=""/>
+        <default field="UP_MAXSPEE" applyOnUpdate="0" expression=""/>
+        <default field="DOWN_MAXSP" applyOnUpdate="0" expression=""/>
+        <default field="ROAD_NAME" applyOnUpdate="0" expression=""/>
+        <default field="ROADNAME_A" applyOnUpdate="0" expression=""/>
+        <default field="ONEWAY" applyOnUpdate="0" expression=""/>
+        <default field="ROAD_NO" applyOnUpdate="0" expression=""/>
+        <default field="ROAD_RANK" applyOnUpdate="0" expression=""/>
+        <default field="ROAD_ADMIN" applyOnUpdate="0" expression=""/>
+        <default field="AUTOEXCLUS" applyOnUpdate="0" expression=""/>
+        <default field="UP_CLIMBIN" applyOnUpdate="0" expression=""/>
+        <default field="DOWN_CLIMB" applyOnUpdate="0" expression=""/>
+        <default field="UP_SHOULDE" applyOnUpdate="0" expression=""/>
+        <default field="DOWN_SHOUL" applyOnUpdate="0" expression=""/>
+        <default field="UP_BUSLANE" applyOnUpdate="0" expression=""/>
+        <default field="DOWN_BUSLA" applyOnUpdate="0" expression=""/>
+        <default field="PAVEMENT" applyOnUpdate="0" expression=""/>
+        <default field="SEPARATEDM" applyOnUpdate="0" expression=""/>
+        <default field="ROADFAC_TY" applyOnUpdate="0" expression=""/>
+        <default field="ROADFAC_NA" applyOnUpdate="0" expression=""/>
+        <default field="TOLL" applyOnUpdate="0" expression=""/>
+        <default field="OVERROAD_C" applyOnUpdate="0" expression=""/>
+        <default field="RESTRICT_V" applyOnUpdate="0" expression=""/>
+        <default field="RESTRICT_W" applyOnUpdate="0" expression=""/>
+        <default field="RESTRICT_H" applyOnUpdate="0" expression=""/>
+        <default field="NEWROAD" applyOnUpdate="0" expression=""/>
+        <default field="DISTRICT_I" applyOnUpdate="0" expression=""/>
+        <default field="NETWORK_LE" applyOnUpdate="0" expression=""/>
+        <default field="LENGTH" applyOnUpdate="0" expression=""/>
+        <default field="RAMP" applyOnUpdate="0" expression=""/>
+        <default field="UPLINK_ID" applyOnUpdate="0" expression=""/>
+        <default field="MAPINDEX_I" applyOnUpdate="0" expression=""/>
+        <default field="REMARK" applyOnUpdate="0" expression=""/>
+        <default field="LINK_ID_OL" applyOnUpdate="0" expression=""/>
+        <default field="Shape_Leng" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="LINK_ID" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UP_FROM_NO" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UP_TO_NODE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DOWN_FROM_" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DOWN_TO_NO" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UP_LANES" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DOWN_LANES" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="LANES" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="REVERSIBLE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UP_MAXSPEE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DOWN_MAXSP" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ROAD_NAME" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ROADNAME_A" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ONEWAY" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ROAD_NO" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ROAD_RANK" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ROAD_ADMIN" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="AUTOEXCLUS" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UP_CLIMBIN" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DOWN_CLIMB" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UP_SHOULDE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DOWN_SHOUL" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UP_BUSLANE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DOWN_BUSLA" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="PAVEMENT" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="SEPARATEDM" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ROADFAC_TY" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ROADFAC_NA" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="TOLL" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="OVERROAD_C" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RESTRICT_V" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RESTRICT_W" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RESTRICT_H" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NEWROAD" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DISTRICT_I" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NETWORK_LE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="LENGTH" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RAMP" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UPLINK_ID" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MAPINDEX_I" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="REMARK" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="LINK_ID_OL" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="Shape_Leng" unique_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="LINK_ID" desc=""/>
+        <constraint exp="" field="UP_FROM_NO" desc=""/>
+        <constraint exp="" field="UP_TO_NODE" desc=""/>
+        <constraint exp="" field="DOWN_FROM_" desc=""/>
+        <constraint exp="" field="DOWN_TO_NO" desc=""/>
+        <constraint exp="" field="UP_LANES" desc=""/>
+        <constraint exp="" field="DOWN_LANES" desc=""/>
+        <constraint exp="" field="LANES" desc=""/>
+        <constraint exp="" field="REVERSIBLE" desc=""/>
+        <constraint exp="" field="UP_MAXSPEE" desc=""/>
+        <constraint exp="" field="DOWN_MAXSP" desc=""/>
+        <constraint exp="" field="ROAD_NAME" desc=""/>
+        <constraint exp="" field="ROADNAME_A" desc=""/>
+        <constraint exp="" field="ONEWAY" desc=""/>
+        <constraint exp="" field="ROAD_NO" desc=""/>
+        <constraint exp="" field="ROAD_RANK" desc=""/>
+        <constraint exp="" field="ROAD_ADMIN" desc=""/>
+        <constraint exp="" field="AUTOEXCLUS" desc=""/>
+        <constraint exp="" field="UP_CLIMBIN" desc=""/>
+        <constraint exp="" field="DOWN_CLIMB" desc=""/>
+        <constraint exp="" field="UP_SHOULDE" desc=""/>
+        <constraint exp="" field="DOWN_SHOUL" desc=""/>
+        <constraint exp="" field="UP_BUSLANE" desc=""/>
+        <constraint exp="" field="DOWN_BUSLA" desc=""/>
+        <constraint exp="" field="PAVEMENT" desc=""/>
+        <constraint exp="" field="SEPARATEDM" desc=""/>
+        <constraint exp="" field="ROADFAC_TY" desc=""/>
+        <constraint exp="" field="ROADFAC_NA" desc=""/>
+        <constraint exp="" field="TOLL" desc=""/>
+        <constraint exp="" field="OVERROAD_C" desc=""/>
+        <constraint exp="" field="RESTRICT_V" desc=""/>
+        <constraint exp="" field="RESTRICT_W" desc=""/>
+        <constraint exp="" field="RESTRICT_H" desc=""/>
+        <constraint exp="" field="NEWROAD" desc=""/>
+        <constraint exp="" field="DISTRICT_I" desc=""/>
+        <constraint exp="" field="NETWORK_LE" desc=""/>
+        <constraint exp="" field="LENGTH" desc=""/>
+        <constraint exp="" field="RAMP" desc=""/>
+        <constraint exp="" field="UPLINK_ID" desc=""/>
+        <constraint exp="" field="MAPINDEX_I" desc=""/>
+        <constraint exp="" field="REMARK" desc=""/>
+        <constraint exp="" field="LINK_ID_OL" desc=""/>
+        <constraint exp="" field="Shape_Leng" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column hidden="0" name="LINK_ID" type="field" width="-1"/>
+          <column hidden="0" name="UP_FROM_NO" type="field" width="-1"/>
+          <column hidden="0" name="UP_TO_NODE" type="field" width="-1"/>
+          <column hidden="0" name="DOWN_FROM_" type="field" width="-1"/>
+          <column hidden="0" name="DOWN_TO_NO" type="field" width="-1"/>
+          <column hidden="0" name="UP_LANES" type="field" width="-1"/>
+          <column hidden="0" name="DOWN_LANES" type="field" width="-1"/>
+          <column hidden="0" name="LANES" type="field" width="-1"/>
+          <column hidden="0" name="REVERSIBLE" type="field" width="-1"/>
+          <column hidden="0" name="UP_MAXSPEE" type="field" width="-1"/>
+          <column hidden="0" name="DOWN_MAXSP" type="field" width="-1"/>
+          <column hidden="0" name="ROAD_NAME" type="field" width="-1"/>
+          <column hidden="0" name="ROADNAME_A" type="field" width="-1"/>
+          <column hidden="0" name="ONEWAY" type="field" width="-1"/>
+          <column hidden="0" name="ROAD_NO" type="field" width="-1"/>
+          <column hidden="0" name="ROAD_RANK" type="field" width="-1"/>
+          <column hidden="0" name="ROAD_ADMIN" type="field" width="-1"/>
+          <column hidden="0" name="AUTOEXCLUS" type="field" width="-1"/>
+          <column hidden="0" name="UP_CLIMBIN" type="field" width="-1"/>
+          <column hidden="0" name="DOWN_CLIMB" type="field" width="-1"/>
+          <column hidden="0" name="UP_SHOULDE" type="field" width="-1"/>
+          <column hidden="0" name="DOWN_SHOUL" type="field" width="-1"/>
+          <column hidden="0" name="UP_BUSLANE" type="field" width="-1"/>
+          <column hidden="0" name="DOWN_BUSLA" type="field" width="-1"/>
+          <column hidden="0" name="PAVEMENT" type="field" width="-1"/>
+          <column hidden="0" name="SEPARATEDM" type="field" width="-1"/>
+          <column hidden="0" name="ROADFAC_TY" type="field" width="-1"/>
+          <column hidden="0" name="ROADFAC_NA" type="field" width="-1"/>
+          <column hidden="0" name="TOLL" type="field" width="-1"/>
+          <column hidden="0" name="OVERROAD_C" type="field" width="-1"/>
+          <column hidden="0" name="RESTRICT_V" type="field" width="-1"/>
+          <column hidden="0" name="RESTRICT_W" type="field" width="-1"/>
+          <column hidden="0" name="RESTRICT_H" type="field" width="-1"/>
+          <column hidden="0" name="NEWROAD" type="field" width="-1"/>
+          <column hidden="0" name="DISTRICT_I" type="field" width="-1"/>
+          <column hidden="0" name="NETWORK_LE" type="field" width="-1"/>
+          <column hidden="0" name="LENGTH" type="field" width="-1"/>
+          <column hidden="0" name="RAMP" type="field" width="-1"/>
+          <column hidden="0" name="UPLINK_ID" type="field" width="-1"/>
+          <column hidden="0" name="MAPINDEX_I" type="field" width="-1"/>
+          <column hidden="0" name="REMARK" type="field" width="-1"/>
+          <column hidden="0" name="LINK_ID_OL" type="field" width="-1"/>
+          <column hidden="0" name="Shape_Leng" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS 양식은 양식이 열릴 때 호출된 파이썬 함수를 보유할 수 있습니다.
+
+이 함수를 사용해서 사용자 양식에 추가 로직을 추가하십시오.
+
+"파이썬 초기 함수" 란에 함수명을 입력하십시오.
+다음은 그 예시입니다:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="AUTOEXCLUS" editable="1"/>
+        <field name="DISTRICT_I" editable="1"/>
+        <field name="DOWN_BUSLA" editable="1"/>
+        <field name="DOWN_CLIMB" editable="1"/>
+        <field name="DOWN_FROM_" editable="1"/>
+        <field name="DOWN_LANES" editable="1"/>
+        <field name="DOWN_MAXSP" editable="1"/>
+        <field name="DOWN_SHOUL" editable="1"/>
+        <field name="DOWN_TO_NO" editable="1"/>
+        <field name="LANES" editable="1"/>
+        <field name="LENGTH" editable="1"/>
+        <field name="LINK_ID" editable="1"/>
+        <field name="LINK_ID_OL" editable="1"/>
+        <field name="MAPINDEX_I" editable="1"/>
+        <field name="NETWORK_LE" editable="1"/>
+        <field name="NEWROAD" editable="1"/>
+        <field name="ONEWAY" editable="1"/>
+        <field name="OVERROAD_C" editable="1"/>
+        <field name="PAVEMENT" editable="1"/>
+        <field name="RAMP" editable="1"/>
+        <field name="REMARK" editable="1"/>
+        <field name="RESTRICT_H" editable="1"/>
+        <field name="RESTRICT_V" editable="1"/>
+        <field name="RESTRICT_W" editable="1"/>
+        <field name="REVERSIBLE" editable="1"/>
+        <field name="ROADFAC_NA" editable="1"/>
+        <field name="ROADFAC_TY" editable="1"/>
+        <field name="ROADNAME_A" editable="1"/>
+        <field name="ROAD_ADMIN" editable="1"/>
+        <field name="ROAD_NAME" editable="1"/>
+        <field name="ROAD_NO" editable="1"/>
+        <field name="ROAD_RANK" editable="1"/>
+        <field name="SEPARATEDM" editable="1"/>
+        <field name="Shape_Leng" editable="1"/>
+        <field name="TOLL" editable="1"/>
+        <field name="UPLINK_ID" editable="1"/>
+        <field name="UP_BUSLANE" editable="1"/>
+        <field name="UP_CLIMBIN" editable="1"/>
+        <field name="UP_FROM_NO" editable="1"/>
+        <field name="UP_LANES" editable="1"/>
+        <field name="UP_MAXSPEE" editable="1"/>
+        <field name="UP_SHOULDE" editable="1"/>
+        <field name="UP_TO_NODE" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="AUTOEXCLUS" labelOnTop="0"/>
+        <field name="DISTRICT_I" labelOnTop="0"/>
+        <field name="DOWN_BUSLA" labelOnTop="0"/>
+        <field name="DOWN_CLIMB" labelOnTop="0"/>
+        <field name="DOWN_FROM_" labelOnTop="0"/>
+        <field name="DOWN_LANES" labelOnTop="0"/>
+        <field name="DOWN_MAXSP" labelOnTop="0"/>
+        <field name="DOWN_SHOUL" labelOnTop="0"/>
+        <field name="DOWN_TO_NO" labelOnTop="0"/>
+        <field name="LANES" labelOnTop="0"/>
+        <field name="LENGTH" labelOnTop="0"/>
+        <field name="LINK_ID" labelOnTop="0"/>
+        <field name="LINK_ID_OL" labelOnTop="0"/>
+        <field name="MAPINDEX_I" labelOnTop="0"/>
+        <field name="NETWORK_LE" labelOnTop="0"/>
+        <field name="NEWROAD" labelOnTop="0"/>
+        <field name="ONEWAY" labelOnTop="0"/>
+        <field name="OVERROAD_C" labelOnTop="0"/>
+        <field name="PAVEMENT" labelOnTop="0"/>
+        <field name="RAMP" labelOnTop="0"/>
+        <field name="REMARK" labelOnTop="0"/>
+        <field name="RESTRICT_H" labelOnTop="0"/>
+        <field name="RESTRICT_V" labelOnTop="0"/>
+        <field name="RESTRICT_W" labelOnTop="0"/>
+        <field name="REVERSIBLE" labelOnTop="0"/>
+        <field name="ROADFAC_NA" labelOnTop="0"/>
+        <field name="ROADFAC_TY" labelOnTop="0"/>
+        <field name="ROADNAME_A" labelOnTop="0"/>
+        <field name="ROAD_ADMIN" labelOnTop="0"/>
+        <field name="ROAD_NAME" labelOnTop="0"/>
+        <field name="ROAD_NO" labelOnTop="0"/>
+        <field name="ROAD_RANK" labelOnTop="0"/>
+        <field name="SEPARATEDM" labelOnTop="0"/>
+        <field name="Shape_Leng" labelOnTop="0"/>
+        <field name="TOLL" labelOnTop="0"/>
+        <field name="UPLINK_ID" labelOnTop="0"/>
+        <field name="UP_BUSLANE" labelOnTop="0"/>
+        <field name="UP_CLIMBIN" labelOnTop="0"/>
+        <field name="UP_FROM_NO" labelOnTop="0"/>
+        <field name="UP_LANES" labelOnTop="0"/>
+        <field name="UP_MAXSPEE" labelOnTop="0"/>
+        <field name="UP_SHOULDE" labelOnTop="0"/>
+        <field name="UP_TO_NODE" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>LINK_ID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" labelsEnabled="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" type="vector" minScale="1e+08" simplifyMaxScale="1" autoRefreshTime="0" maxScale="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" geometry="Line" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>181755.26219999976456165</xmin>
+        <ymin>436507.79910000041127205</ymin>
+        <xmax>216084.63520000036805868</xmax>
+        <ymax>465549.63869999907910824</ymax>
+      </extent>
+      <id>road_link2_1dd3589a_640c_4936_baad_14bda8f707cc</id>
+      <datasource>./새 폴더/QGIS_Step1/Day2_Data/Seoul/road_link2.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>road_link2</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28045</srsid>
+          <srid>5181</srid>
+          <authid>EPSG:5181</authid>
+          <description>Korea 2000 / Central Belt</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial miny="0" crs="" minz="0" minx="0" maxz="0" maxx="0" dimensions="2" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields>
+        <field name="LANES" length="10" typeName="integer" type="2" comment="" precision="0" subType="0" expression=" &quot;LANES&quot;  >= 8"/>
+        <field name="LANES" length="10" typeName="integer" type="2" comment="" precision="0" subType="0" expression=" &quot;LANES&quot;  >= 8"/>
+      </expressionfields>
+      <map-layer-style-manager current="기본값">
+        <map-layer-style name="기본값"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol name="0" type="line" alpha="1" clip_to_extent="1">
+            <layer class="SimpleLine" enabled="1" pass="0" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="243,166,178,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>LINK_ID</value>
+          <value>"LINK_ID"</value>
+          <value>LINK_ID</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory lineSizeType="MM" width="15" sizeType="MM" diagramOrientation="Up" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" penWidth="0" penColor="#000000" opacity="1" enabled="0" minimumSize="0" penAlpha="255" sizeScale="3x:0,0,0,0,0,0" barWidth="5" minScaleDenominator="0" rotationOffset="270" labelPlacementMethod="XHeight" backgroundColor="#ffffff" backgroundAlpha="255" height="15" maxScaleDenominator="1e+08" scaleDependency="Area">
+          <fontProperties description="Gulim,9,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" label="" field=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" priority="0" placement="2" zIndex="0" obstacle="0" showAll="1" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="LINK_ID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP_FROM_NO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP_TO_NODE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DOWN_FROM_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DOWN_TO_NO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP_LANES">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DOWN_LANES">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LANES">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="REVERSIBLE">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP_MAXSPEE">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DOWN_MAXSP">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROAD_NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROADNAME_A">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ONEWAY">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROAD_NO">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROAD_RANK">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROAD_ADMIN">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AUTOEXCLUS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP_CLIMBIN">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DOWN_CLIMB">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP_SHOULDE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DOWN_SHOUL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP_BUSLANE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DOWN_BUSLA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PAVEMENT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SEPARATEDM">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROADFAC_TY">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROADFAC_NA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TOLL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OVERROAD_C">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RESTRICT_V">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RESTRICT_W">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RESTRICT_H">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NEWROAD">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DISTRICT_I">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NETWORK_LE">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LENGTH">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RAMP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UPLINK_ID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MAPINDEX_I">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="REMARK">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LINK_ID_OL">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Leng">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="LINK_ID" index="0"/>
+        <alias name="" field="UP_FROM_NO" index="1"/>
+        <alias name="" field="UP_TO_NODE" index="2"/>
+        <alias name="" field="DOWN_FROM_" index="3"/>
+        <alias name="" field="DOWN_TO_NO" index="4"/>
+        <alias name="" field="UP_LANES" index="5"/>
+        <alias name="" field="DOWN_LANES" index="6"/>
+        <alias name="" field="LANES" index="7"/>
+        <alias name="" field="REVERSIBLE" index="8"/>
+        <alias name="" field="UP_MAXSPEE" index="9"/>
+        <alias name="" field="DOWN_MAXSP" index="10"/>
+        <alias name="" field="ROAD_NAME" index="11"/>
+        <alias name="" field="ROADNAME_A" index="12"/>
+        <alias name="" field="ONEWAY" index="13"/>
+        <alias name="" field="ROAD_NO" index="14"/>
+        <alias name="" field="ROAD_RANK" index="15"/>
+        <alias name="" field="ROAD_ADMIN" index="16"/>
+        <alias name="" field="AUTOEXCLUS" index="17"/>
+        <alias name="" field="UP_CLIMBIN" index="18"/>
+        <alias name="" field="DOWN_CLIMB" index="19"/>
+        <alias name="" field="UP_SHOULDE" index="20"/>
+        <alias name="" field="DOWN_SHOUL" index="21"/>
+        <alias name="" field="UP_BUSLANE" index="22"/>
+        <alias name="" field="DOWN_BUSLA" index="23"/>
+        <alias name="" field="PAVEMENT" index="24"/>
+        <alias name="" field="SEPARATEDM" index="25"/>
+        <alias name="" field="ROADFAC_TY" index="26"/>
+        <alias name="" field="ROADFAC_NA" index="27"/>
+        <alias name="" field="TOLL" index="28"/>
+        <alias name="" field="OVERROAD_C" index="29"/>
+        <alias name="" field="RESTRICT_V" index="30"/>
+        <alias name="" field="RESTRICT_W" index="31"/>
+        <alias name="" field="RESTRICT_H" index="32"/>
+        <alias name="" field="NEWROAD" index="33"/>
+        <alias name="" field="DISTRICT_I" index="34"/>
+        <alias name="" field="NETWORK_LE" index="35"/>
+        <alias name="" field="LENGTH" index="36"/>
+        <alias name="" field="RAMP" index="37"/>
+        <alias name="" field="UPLINK_ID" index="38"/>
+        <alias name="" field="MAPINDEX_I" index="39"/>
+        <alias name="" field="REMARK" index="40"/>
+        <alias name="" field="LINK_ID_OL" index="41"/>
+        <alias name="" field="Shape_Leng" index="42"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="LINK_ID" applyOnUpdate="0" expression=""/>
+        <default field="UP_FROM_NO" applyOnUpdate="0" expression=""/>
+        <default field="UP_TO_NODE" applyOnUpdate="0" expression=""/>
+        <default field="DOWN_FROM_" applyOnUpdate="0" expression=""/>
+        <default field="DOWN_TO_NO" applyOnUpdate="0" expression=""/>
+        <default field="UP_LANES" applyOnUpdate="0" expression=""/>
+        <default field="DOWN_LANES" applyOnUpdate="0" expression=""/>
+        <default field="LANES" applyOnUpdate="0" expression=""/>
+        <default field="REVERSIBLE" applyOnUpdate="0" expression=""/>
+        <default field="UP_MAXSPEE" applyOnUpdate="0" expression=""/>
+        <default field="DOWN_MAXSP" applyOnUpdate="0" expression=""/>
+        <default field="ROAD_NAME" applyOnUpdate="0" expression=""/>
+        <default field="ROADNAME_A" applyOnUpdate="0" expression=""/>
+        <default field="ONEWAY" applyOnUpdate="0" expression=""/>
+        <default field="ROAD_NO" applyOnUpdate="0" expression=""/>
+        <default field="ROAD_RANK" applyOnUpdate="0" expression=""/>
+        <default field="ROAD_ADMIN" applyOnUpdate="0" expression=""/>
+        <default field="AUTOEXCLUS" applyOnUpdate="0" expression=""/>
+        <default field="UP_CLIMBIN" applyOnUpdate="0" expression=""/>
+        <default field="DOWN_CLIMB" applyOnUpdate="0" expression=""/>
+        <default field="UP_SHOULDE" applyOnUpdate="0" expression=""/>
+        <default field="DOWN_SHOUL" applyOnUpdate="0" expression=""/>
+        <default field="UP_BUSLANE" applyOnUpdate="0" expression=""/>
+        <default field="DOWN_BUSLA" applyOnUpdate="0" expression=""/>
+        <default field="PAVEMENT" applyOnUpdate="0" expression=""/>
+        <default field="SEPARATEDM" applyOnUpdate="0" expression=""/>
+        <default field="ROADFAC_TY" applyOnUpdate="0" expression=""/>
+        <default field="ROADFAC_NA" applyOnUpdate="0" expression=""/>
+        <default field="TOLL" applyOnUpdate="0" expression=""/>
+        <default field="OVERROAD_C" applyOnUpdate="0" expression=""/>
+        <default field="RESTRICT_V" applyOnUpdate="0" expression=""/>
+        <default field="RESTRICT_W" applyOnUpdate="0" expression=""/>
+        <default field="RESTRICT_H" applyOnUpdate="0" expression=""/>
+        <default field="NEWROAD" applyOnUpdate="0" expression=""/>
+        <default field="DISTRICT_I" applyOnUpdate="0" expression=""/>
+        <default field="NETWORK_LE" applyOnUpdate="0" expression=""/>
+        <default field="LENGTH" applyOnUpdate="0" expression=""/>
+        <default field="RAMP" applyOnUpdate="0" expression=""/>
+        <default field="UPLINK_ID" applyOnUpdate="0" expression=""/>
+        <default field="MAPINDEX_I" applyOnUpdate="0" expression=""/>
+        <default field="REMARK" applyOnUpdate="0" expression=""/>
+        <default field="LINK_ID_OL" applyOnUpdate="0" expression=""/>
+        <default field="Shape_Leng" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="LINK_ID" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UP_FROM_NO" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UP_TO_NODE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DOWN_FROM_" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DOWN_TO_NO" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UP_LANES" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DOWN_LANES" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="LANES" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="REVERSIBLE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UP_MAXSPEE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DOWN_MAXSP" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ROAD_NAME" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ROADNAME_A" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ONEWAY" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ROAD_NO" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ROAD_RANK" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ROAD_ADMIN" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="AUTOEXCLUS" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UP_CLIMBIN" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DOWN_CLIMB" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UP_SHOULDE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DOWN_SHOUL" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UP_BUSLANE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DOWN_BUSLA" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="PAVEMENT" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="SEPARATEDM" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ROADFAC_TY" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ROADFAC_NA" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="TOLL" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="OVERROAD_C" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RESTRICT_V" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RESTRICT_W" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RESTRICT_H" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NEWROAD" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DISTRICT_I" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NETWORK_LE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="LENGTH" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RAMP" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="UPLINK_ID" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MAPINDEX_I" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="REMARK" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="LINK_ID_OL" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="Shape_Leng" unique_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="LINK_ID" desc=""/>
+        <constraint exp="" field="UP_FROM_NO" desc=""/>
+        <constraint exp="" field="UP_TO_NODE" desc=""/>
+        <constraint exp="" field="DOWN_FROM_" desc=""/>
+        <constraint exp="" field="DOWN_TO_NO" desc=""/>
+        <constraint exp="" field="UP_LANES" desc=""/>
+        <constraint exp="" field="DOWN_LANES" desc=""/>
+        <constraint exp="" field="LANES" desc=""/>
+        <constraint exp="" field="REVERSIBLE" desc=""/>
+        <constraint exp="" field="UP_MAXSPEE" desc=""/>
+        <constraint exp="" field="DOWN_MAXSP" desc=""/>
+        <constraint exp="" field="ROAD_NAME" desc=""/>
+        <constraint exp="" field="ROADNAME_A" desc=""/>
+        <constraint exp="" field="ONEWAY" desc=""/>
+        <constraint exp="" field="ROAD_NO" desc=""/>
+        <constraint exp="" field="ROAD_RANK" desc=""/>
+        <constraint exp="" field="ROAD_ADMIN" desc=""/>
+        <constraint exp="" field="AUTOEXCLUS" desc=""/>
+        <constraint exp="" field="UP_CLIMBIN" desc=""/>
+        <constraint exp="" field="DOWN_CLIMB" desc=""/>
+        <constraint exp="" field="UP_SHOULDE" desc=""/>
+        <constraint exp="" field="DOWN_SHOUL" desc=""/>
+        <constraint exp="" field="UP_BUSLANE" desc=""/>
+        <constraint exp="" field="DOWN_BUSLA" desc=""/>
+        <constraint exp="" field="PAVEMENT" desc=""/>
+        <constraint exp="" field="SEPARATEDM" desc=""/>
+        <constraint exp="" field="ROADFAC_TY" desc=""/>
+        <constraint exp="" field="ROADFAC_NA" desc=""/>
+        <constraint exp="" field="TOLL" desc=""/>
+        <constraint exp="" field="OVERROAD_C" desc=""/>
+        <constraint exp="" field="RESTRICT_V" desc=""/>
+        <constraint exp="" field="RESTRICT_W" desc=""/>
+        <constraint exp="" field="RESTRICT_H" desc=""/>
+        <constraint exp="" field="NEWROAD" desc=""/>
+        <constraint exp="" field="DISTRICT_I" desc=""/>
+        <constraint exp="" field="NETWORK_LE" desc=""/>
+        <constraint exp="" field="LENGTH" desc=""/>
+        <constraint exp="" field="RAMP" desc=""/>
+        <constraint exp="" field="UPLINK_ID" desc=""/>
+        <constraint exp="" field="MAPINDEX_I" desc=""/>
+        <constraint exp="" field="REMARK" desc=""/>
+        <constraint exp="" field="LINK_ID_OL" desc=""/>
+        <constraint exp="" field="Shape_Leng" desc=""/>
+      </constraintExpressions>
+      <expressionfields>
+        <field name="LANES" length="10" typeName="integer" type="2" comment="" precision="0" subType="0" expression=" &quot;LANES&quot;  >= 8"/>
+        <field name="LANES" length="10" typeName="integer" type="2" comment="" precision="0" subType="0" expression=" &quot;LANES&quot;  >= 8"/>
+      </expressionfields>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column hidden="0" name="LINK_ID" type="field" width="-1"/>
+          <column hidden="0" name="UP_FROM_NO" type="field" width="-1"/>
+          <column hidden="0" name="UP_TO_NODE" type="field" width="-1"/>
+          <column hidden="0" name="DOWN_FROM_" type="field" width="-1"/>
+          <column hidden="0" name="DOWN_TO_NO" type="field" width="-1"/>
+          <column hidden="0" name="UP_LANES" type="field" width="-1"/>
+          <column hidden="0" name="DOWN_LANES" type="field" width="-1"/>
+          <column hidden="0" name="LANES" type="field" width="-1"/>
+          <column hidden="0" name="REVERSIBLE" type="field" width="-1"/>
+          <column hidden="0" name="UP_MAXSPEE" type="field" width="-1"/>
+          <column hidden="0" name="DOWN_MAXSP" type="field" width="-1"/>
+          <column hidden="0" name="ROAD_NAME" type="field" width="-1"/>
+          <column hidden="0" name="ROADNAME_A" type="field" width="-1"/>
+          <column hidden="0" name="ONEWAY" type="field" width="-1"/>
+          <column hidden="0" name="ROAD_NO" type="field" width="-1"/>
+          <column hidden="0" name="ROAD_RANK" type="field" width="-1"/>
+          <column hidden="0" name="ROAD_ADMIN" type="field" width="-1"/>
+          <column hidden="0" name="AUTOEXCLUS" type="field" width="-1"/>
+          <column hidden="0" name="UP_CLIMBIN" type="field" width="-1"/>
+          <column hidden="0" name="DOWN_CLIMB" type="field" width="-1"/>
+          <column hidden="0" name="UP_SHOULDE" type="field" width="-1"/>
+          <column hidden="0" name="DOWN_SHOUL" type="field" width="-1"/>
+          <column hidden="0" name="UP_BUSLANE" type="field" width="-1"/>
+          <column hidden="0" name="DOWN_BUSLA" type="field" width="-1"/>
+          <column hidden="0" name="PAVEMENT" type="field" width="-1"/>
+          <column hidden="0" name="SEPARATEDM" type="field" width="-1"/>
+          <column hidden="0" name="ROADFAC_TY" type="field" width="-1"/>
+          <column hidden="0" name="ROADFAC_NA" type="field" width="-1"/>
+          <column hidden="0" name="TOLL" type="field" width="-1"/>
+          <column hidden="0" name="OVERROAD_C" type="field" width="-1"/>
+          <column hidden="0" name="RESTRICT_V" type="field" width="-1"/>
+          <column hidden="0" name="RESTRICT_W" type="field" width="-1"/>
+          <column hidden="0" name="RESTRICT_H" type="field" width="-1"/>
+          <column hidden="0" name="NEWROAD" type="field" width="-1"/>
+          <column hidden="0" name="DISTRICT_I" type="field" width="-1"/>
+          <column hidden="0" name="NETWORK_LE" type="field" width="-1"/>
+          <column hidden="0" name="LENGTH" type="field" width="-1"/>
+          <column hidden="0" name="RAMP" type="field" width="-1"/>
+          <column hidden="0" name="UPLINK_ID" type="field" width="-1"/>
+          <column hidden="0" name="MAPINDEX_I" type="field" width="-1"/>
+          <column hidden="0" name="REMARK" type="field" width="-1"/>
+          <column hidden="0" name="LINK_ID_OL" type="field" width="-1"/>
+          <column hidden="0" name="Shape_Leng" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS 양식은 양식이 열릴 때 호출된 파이썬 함수를 보유할 수 있습니다.
+
+이 함수를 사용해서 사용자 양식에 추가 로직을 추가하십시오.
+
+"파이썬 초기 함수" 란에 함수명을 입력하십시오.
+다음은 그 예시입니다:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="AUTOEXCLUS" editable="1"/>
+        <field name="DISTRICT_I" editable="1"/>
+        <field name="DOWN_BUSLA" editable="1"/>
+        <field name="DOWN_CLIMB" editable="1"/>
+        <field name="DOWN_FROM_" editable="1"/>
+        <field name="DOWN_LANES" editable="1"/>
+        <field name="DOWN_MAXSP" editable="1"/>
+        <field name="DOWN_SHOUL" editable="1"/>
+        <field name="DOWN_TO_NO" editable="1"/>
+        <field name="LANES" editable="1"/>
+        <field name="LENGTH" editable="1"/>
+        <field name="LINK_ID" editable="1"/>
+        <field name="LINK_ID_OL" editable="1"/>
+        <field name="MAPINDEX_I" editable="1"/>
+        <field name="NETWORK_LE" editable="1"/>
+        <field name="NEWROAD" editable="1"/>
+        <field name="ONEWAY" editable="1"/>
+        <field name="OVERROAD_C" editable="1"/>
+        <field name="PAVEMENT" editable="1"/>
+        <field name="RAMP" editable="1"/>
+        <field name="REMARK" editable="1"/>
+        <field name="RESTRICT_H" editable="1"/>
+        <field name="RESTRICT_V" editable="1"/>
+        <field name="RESTRICT_W" editable="1"/>
+        <field name="REVERSIBLE" editable="1"/>
+        <field name="ROADFAC_NA" editable="1"/>
+        <field name="ROADFAC_TY" editable="1"/>
+        <field name="ROADNAME_A" editable="1"/>
+        <field name="ROAD_ADMIN" editable="1"/>
+        <field name="ROAD_NAME" editable="1"/>
+        <field name="ROAD_NO" editable="1"/>
+        <field name="ROAD_RANK" editable="1"/>
+        <field name="SEPARATEDM" editable="1"/>
+        <field name="Shape_Leng" editable="1"/>
+        <field name="TOLL" editable="1"/>
+        <field name="UPLINK_ID" editable="1"/>
+        <field name="UP_BUSLANE" editable="1"/>
+        <field name="UP_CLIMBIN" editable="1"/>
+        <field name="UP_FROM_NO" editable="1"/>
+        <field name="UP_LANES" editable="1"/>
+        <field name="UP_MAXSPEE" editable="1"/>
+        <field name="UP_SHOULDE" editable="1"/>
+        <field name="UP_TO_NODE" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="AUTOEXCLUS" labelOnTop="0"/>
+        <field name="DISTRICT_I" labelOnTop="0"/>
+        <field name="DOWN_BUSLA" labelOnTop="0"/>
+        <field name="DOWN_CLIMB" labelOnTop="0"/>
+        <field name="DOWN_FROM_" labelOnTop="0"/>
+        <field name="DOWN_LANES" labelOnTop="0"/>
+        <field name="DOWN_MAXSP" labelOnTop="0"/>
+        <field name="DOWN_SHOUL" labelOnTop="0"/>
+        <field name="DOWN_TO_NO" labelOnTop="0"/>
+        <field name="LANES" labelOnTop="0"/>
+        <field name="LENGTH" labelOnTop="0"/>
+        <field name="LINK_ID" labelOnTop="0"/>
+        <field name="LINK_ID_OL" labelOnTop="0"/>
+        <field name="MAPINDEX_I" labelOnTop="0"/>
+        <field name="NETWORK_LE" labelOnTop="0"/>
+        <field name="NEWROAD" labelOnTop="0"/>
+        <field name="ONEWAY" labelOnTop="0"/>
+        <field name="OVERROAD_C" labelOnTop="0"/>
+        <field name="PAVEMENT" labelOnTop="0"/>
+        <field name="RAMP" labelOnTop="0"/>
+        <field name="REMARK" labelOnTop="0"/>
+        <field name="RESTRICT_H" labelOnTop="0"/>
+        <field name="RESTRICT_V" labelOnTop="0"/>
+        <field name="RESTRICT_W" labelOnTop="0"/>
+        <field name="REVERSIBLE" labelOnTop="0"/>
+        <field name="ROADFAC_NA" labelOnTop="0"/>
+        <field name="ROADFAC_TY" labelOnTop="0"/>
+        <field name="ROADNAME_A" labelOnTop="0"/>
+        <field name="ROAD_ADMIN" labelOnTop="0"/>
+        <field name="ROAD_NAME" labelOnTop="0"/>
+        <field name="ROAD_NO" labelOnTop="0"/>
+        <field name="ROAD_RANK" labelOnTop="0"/>
+        <field name="SEPARATEDM" labelOnTop="0"/>
+        <field name="Shape_Leng" labelOnTop="0"/>
+        <field name="TOLL" labelOnTop="0"/>
+        <field name="UPLINK_ID" labelOnTop="0"/>
+        <field name="UP_BUSLANE" labelOnTop="0"/>
+        <field name="UP_CLIMBIN" labelOnTop="0"/>
+        <field name="UP_FROM_NO" labelOnTop="0"/>
+        <field name="UP_LANES" labelOnTop="0"/>
+        <field name="UP_MAXSPEE" labelOnTop="0"/>
+        <field name="UP_SHOULDE" labelOnTop="0"/>
+        <field name="UP_TO_NODE" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>LINK_ID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" labelsEnabled="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" type="vector" minScale="1e+08" simplifyMaxScale="1" autoRefreshTime="0" maxScale="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" geometry="Point" styleCategories="AllStyleCategories" simplifyDrawingHints="0" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>126.80078949999999338</xmin>
+        <ymin>37.45115932000000214</ymin>
+        <xmax>127.15613960000000304</xmax>
+        <ymax>37.68382379999999898</ymax>
+      </extent>
+      <id>서울형_지도태깅_전기차급속충전기_정보_d8e04adc_2624_45f3_a08e_7391ac5cc2d9</id>
+      <datasource>file:./%EC%84%9C%EC%9A%B8%ED%98%95%20%EC%A7%80%EB%8F%84%ED%83%9C%EA%B9%85%20%EC%A0%84%EA%B8%B0%EC%B0%A8%EA%B8%89%EC%86%8D%EC%B6%A9%EC%A0%84%EA%B8%B0%20%EC%A0%95%EB%B3%B4.csv?encoding=System&amp;type=csv&amp;detectTypes=yes&amp;xField=%EC%A2%8C%ED%91%9C%EC%A0%95%EB%B3%B4&amp;yField=%EC%A2%8C%ED%91%9C%EC%A0%95%EB%B3%B4_1&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>서울형 지도태깅 전기차급속충전기 정보</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial miny="0" crs="" minz="0" minx="0" maxz="0" maxx="0" dimensions="2" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="System">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="기본값">
+        <map-layer-style name="기본값"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol name="0" type="marker" alpha="1" clip_to_extent="1">
+            <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="75,57,196,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>지번주소</value>
+          <value>"지번주소"</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory lineSizeType="MM" width="15" sizeType="MM" diagramOrientation="Up" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" penWidth="0" penColor="#000000" opacity="1" enabled="0" minimumSize="0" penAlpha="255" sizeScale="3x:0,0,0,0,0,0" barWidth="5" minScaleDenominator="0" rotationOffset="270" labelPlacementMethod="XHeight" backgroundColor="#ffffff" backgroundAlpha="255" height="15" maxScaleDenominator="1e+08" scaleDependency="Area">
+          <fontProperties description="Gulim,9,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" priority="0" placement="0" zIndex="0" obstacle="0" showAll="1" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="지번주소">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="좌표정보">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="좌표정보_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="콘텐츠 명">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="지번주소" index="0"/>
+        <alias name="" field="좌표정보" index="1"/>
+        <alias name="" field="좌표정보_1" index="2"/>
+        <alias name="" field="콘텐츠 명" index="3"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="지번주소" applyOnUpdate="0" expression=""/>
+        <default field="좌표정보" applyOnUpdate="0" expression=""/>
+        <default field="좌표정보_1" applyOnUpdate="0" expression=""/>
+        <default field="콘텐츠 명" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="지번주소" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="좌표정보" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="좌표정보_1" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="콘텐츠 명" unique_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="지번주소" desc=""/>
+        <constraint exp="" field="좌표정보" desc=""/>
+        <constraint exp="" field="좌표정보_1" desc=""/>
+        <constraint exp="" field="콘텐츠 명" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column hidden="0" name="지번주소" type="field" width="-1"/>
+          <column hidden="0" name="좌표정보" type="field" width="-1"/>
+          <column hidden="0" name="좌표정보_1" type="field" width="-1"/>
+          <column hidden="0" name="콘텐츠 명" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS 양식은 양식이 열릴 때 호출된 파이썬 함수를 보유할 수 있습니다.
+
+이 함수를 사용해서 사용자 양식에 추가 로직을 추가하십시오.
+
+"파이썬 초기 함수" 란에 함수명을 입력하십시오.
+다음은 그 예시입니다:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="좌표정보" editable="1"/>
+        <field name="좌표정보_1" editable="1"/>
+        <field name="지번주소" editable="1"/>
+        <field name="콘텐츠 명" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="좌표정보" labelOnTop="0"/>
+        <field name="좌표정보_1" labelOnTop="0"/>
+        <field name="지번주소" labelOnTop="0"/>
+        <field name="콘텐츠 명" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>지번주소</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="road_link2_1dd3589a_640c_4936_baad_14bda8f707cc"/>
+    <layer id="서울형_지도태깅_전기차급속충전기_정보_d8e04adc_2624_45f3_a08e_7391ac5cc2d9"/>
+    <layer id="output_de563e65_c279_42f0_a6f8_e8ca90b431b0"/>
+  </layerorder>
+  <properties>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSID type="int">28045</ProjectCRSID>
+      <ProjectCrs type="QString">EPSG:5181</ProjectCrs>
+      <ProjectCRSProj4String type="QString">+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <PAL>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <SearchMethod type="int">0</SearchMethod>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+    </PAL>
+    <Gui>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Digitizing>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
+      <LayerSnappingList type="QStringList">
+        <value>admin_sgg20181205165027184</value>
+        <value>road_link220181205165227624</value>
+        <value>서울시_나눔카_거점리스트_정보20181205171541654</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <AvoidIntersectionsList type="QStringList"/>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+    </Digitizing>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author></author>
+    <creation></creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>
